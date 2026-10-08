@@ -12,22 +12,29 @@
     </head>
     <body>
         <!-- ===== Encabezado ===== -->
-        <header>
-            <h1>Mi Proyecto Web</h1>
-            <nav>
-                <a href="#inicio">Inicio</a>
-                <a href="#beneficios">Beneficios</a>
-                <a href="#contacto">Contacto</a>
-            </nav>
-        </header>
+        <header class="site-header">
+    <div class="logo">TaskFlow</div>
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+</header>
 
-        <!-- ===== Sección principal ===== -->
-        <section id="inicio">
-            <h2>Bienvenido a nuestro sitio Web la mejor plataforma</h2>
+        <!-- ===== Sección principal (Hero) ===== -->
+        <section
+            id="inicio"
+            class="hero">
+            <h2>Transforma tus ideas en realidad</h2>
             <p>
-                Este es un proyecto creado como parte de la Tarea 5 de Técnicas
-                de Integración de Código.
+                Soluciones web modernas, rápidas y confiables para impulsar tu
+                próximo proyecto.
             </p>
+            <a
+                href="#contacto"
+                class="btn-cta"
+                >Contáctanos</a
+            >
         </section>
 
         <!-- ===== Sección de beneficios ===== -->
@@ -36,11 +43,11 @@
             <div class="beneficios-container">
                 <div class="beneficio">
                     <h3>Rápido</h3>
-                    <p>Rendimiento optimizado para una experiencia fluida.</p>
+                    <p>Rendimiento optimizado para una experiencia.</p>
                 </div>
                 <div class="beneficio">
                     <h3>Sencillo</h3>
-                    <p>Interfaz intuitiva y fácil de usar.</p>
+                    <p>Interfaz intuitiva y fácil.</p>
                 </div>
                 <div class="beneficio">
                     <h3>Seguro</h3>
@@ -49,12 +56,46 @@
             </div>
         </section>
 
-        <!-- ===== Pie de página ===== -->
-        <footer>
-            <p>
-                &copy; 2026 Oswaldo &amp; Abimael. Todos los derechos
-                reservados.
-            </p>
-        </footer>
-    </body>
+  <!-- ===== Sección de beneficios ===== -->
+   <section id="beneficios" class="benefits">
+  <h2>¿Por qué elegir TaskFlow?</h2>
+  <div class="cards">
+    <article class="card">
+      <h3>Todo en un lugar</h3>
+      <p>Organiza tus tareas, notas y fechas límite en un solo tablero.</p>
+    </article>
+    <article class="card">
+      <h3>Trabajo en equipo</h3>
+      <p>Comparte proyectos y colabora con tu equipo en tiempo real.</p>
+    </article>
+    <article class="card">
+      <h3>Recordatorios</h3>
+      <p>Recibe avisos automáticos para que nada se te pase.</p>
+    </article>
+  </div>
+</section>
+
+  <!-- ===== Pie de página ===== -->
+  <footer id="contacto">
+    <div class="footer-container">
+      <div class="footer-contacto">
+        <h3>Contacto</h3>
+        <p>Email: contacto@miproyecto.com</p>
+        <p>Teléfono: +52 (614) 123-4567</p>
+        <p>Dirección: Av. Universidad #1234, Chihuahua, México</p>
+      </div>
+      <div class="footer-redes">
+        <h3>Síguenos</h3>
+        <a href="https://facebook.com" target="_blank">Facebook</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+        <a href="https://instagram.com" target="_blank">Instagram</a>
+        <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+    <div class="footer-derechos">
+      <p>&copy; 2026 Oswaldo &amp; Abimael. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+</body>
 </html>
